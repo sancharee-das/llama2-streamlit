@@ -1,0 +1,14 @@
+RETURN_SOURCE_DOCUMENTS: False
+VECTOR_COUNT: 2
+CHUNK_SIZE: 500
+CHUNK_OVERLAP: 50
+DATA_PATH: 'data/'
+DB_FAISS_PATH_DOMAIN: 'vectorstore/db_faiss_domain'
+DB_FAISS_PATH_AGENT: 'vectorstore/db_faiss_agent'
+
+MODEL_TYPE: 'llama'
+MODEL_BIN_PATH: 'models/llama-2-7b-chat.ggmlv3.q8_0.bin'
+
+
+MAX_NEW_TOKENS: 256
+TEMPERATURE: 0.01
